@@ -1,1 +1,72 @@
 
+body{
+    margin: 0 0 55px 0;
+    background-color: rgb(199, 151, 247);
+
+    /* justify-items: center; */
+
+     justify-content: center;
+
+    display: flex;
+
+    margin-top: 50px;
+    
+}
+
+img{
+    /* display: flex; */
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid; 
+
+    /* position: relative; */
+    
+    
+}
+
+.nav{
+    position: absolute;
+    /* bottom: 169px; */
+    bottom: 130px;
+
+    /* bottom: 138px; */
+    border-radius: 0px 0px 10px  10px;
+    /* left: 650px; */
+    width: 284.5px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    overflow-x: auto;  
+    /* box-shadow: 0 0 2px black; */
+    /* align-items: center; */
+}
+
+.nav_link{
+    display: flex;
+    align-items: center; 
+    flex-grow: 0.06;
+    min-width: 70px;
+    flex-direction: column;
+    /* flex-direction: column; icon is on top of the label */
+    overflow: hidden;
+    /* white-space: nowrap; */
+
+    justify-content: center;
+
+    text-decoration: none;
+    position: relative;
+    /* height: 50px; */
+    /* weight: 100px; */
+
+}
+
+
+.nav_link:hover{
+    color: rgb(231, 88, 239);
+    font-size: 20px;
+}
+
+
+.nav_text{
+    font-size: 15px;
+}
